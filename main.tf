@@ -31,3 +31,7 @@ resource "fastly_service_v1" "demo" {
 
   force_destroy = true
 }
+
+provider "fastly" {
+  api_key = var.FASTLY_API_KEY
+}
