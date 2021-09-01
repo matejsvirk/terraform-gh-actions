@@ -32,6 +32,10 @@ resource "fastly_service_v1" "demo" {
   force_destroy = true
 }
 
+variable "FASTLY_API_KE" {
+  type      = string
+}
+
 provider "fastly" {
   api_key = "${var.FASTLY_API_KEY}"
 }
