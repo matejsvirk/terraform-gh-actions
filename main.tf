@@ -33,5 +33,5 @@ resource "fastly_service_v1" "demo" {
 }
 
 provider "fastly" {
-  api_key = var.FASTLY_API_KEY
+  api_key = "${var.FASTLY_API_KEY}"
 }
