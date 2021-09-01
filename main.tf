@@ -32,7 +32,7 @@ resource "fastly_service_v1" "demo" {
   force_destroy = true
 }
 
-variable "FASTLY_API_KE" {
+variable "FASTLY_API_KEY" {
   type      = string
 }
 
