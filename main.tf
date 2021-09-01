@@ -24,7 +24,7 @@ resource "fastly_service_v1" "demo" {
   }
 
   backend {
-    address = "127.0.0.2"
+    address = "127.0.0.3"
     name    = "localhost"
     port    = 80
   }
